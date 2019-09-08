@@ -1,0 +1,148 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Anderson",
+      "lastName": "Araujo Varejão",
+      "password": "123445",
+      "email": "usuario1@email.com.br",
+      "isAdmin": false,
+      "active": false
+    },
+    {
+      "id": 3,
+      "name": "Diane",
+      "lastName": "Pacheco",
+      "isAdmin": false,
+      "email": "usuario3@email.com.br",
+      "password": "123445",
+      "active": false
+    },
+    {
+      "id": 4,
+      "name": "Andreia",
+      "lastName": "Silveira Souza",
+      "isAdmin": false,
+      "email": "usuario4@email.com.br",
+      "password": "123445",
+      "active": false
+    },
+    {
+      "id": 5,
+      "name": "Camila",
+      "lastName": "Lindoso Cortez",
+      "isAdmin": false,
+      "email": "usuario5@email.com.br",
+      "password": "123445",
+      "active": true
+    },
+    {
+      "id": 6,
+      "name": "Antonio",
+      "lastName": "Neto da Silva Fernandes",
+      "password": "123445",
+      "email": "usuario6@email.com.br",
+      "isAdmin": false,
+      "active": true
+    },
+    {
+      "id": 7,
+      "name": "Cleo",
+      "lastName": "Prado Douglas",
+      "isAdmin": false,
+      "email": "usuario7@email.com.br",
+      "password": "123445",
+      "active": false
+    },
+    {
+      "id": 8,
+      "name": "Maria",
+      "lastName": "Clara Araujo Martins",
+      "isAdmin": false,
+      "email": "usuario8@email.com.br",
+      "password": "123445",
+      "active": false
+    },
+    {
+      "id": 15,
+      "name": "Jonas",
+      "lastName": "Vargaski",
+      "password": "123",
+      "email": "jonasvargaski@hotmail.com",
+      "isAdmin": true,
+      "active": true
+    },
+    {
+      "id": 16,
+      "name": "Usuário 1",
+      "lastName": "Teste",
+      "password": "123",
+      "email": "teste@teste.com",
+      "isAdmin": false,
+      "active": true
+    },
+    {
+      "id": 18,
+      "name": "Usuário",
+      "lastName": "Administrador",
+      "password": "123",
+      "email": "admin@admin.com",
+      "isAdmin": true,
+      "active": true
+    },
+    {
+      "id": 19,
+      "name": "Khemkala",
+      "lastName": "Gautam",
+      "password": "123",
+      "email": "female@mai.com",
+      "isAdmin": false,
+      "active": true
+    },
+    {
+      "id": 21,
+      "name": "Nuradilet",
+      "lastName": "Melisov",
+      "password": "123",
+      "email": "male@mai.com",
+      "isAdmin": false,
+      "active": true
+    },
+    {
+      "id": 24,
+      "name": "Bernard",
+      "lastName": "Burtea",
+      "password": "123",
+      "email": "male@mai.com",
+      "isAdmin": false,
+      "active": true
+    },
+    {
+      "id": 25,
+      "name": "Esther",
+      "lastName": "Ortega",
+      "password": "123",
+      "email": "female@mai.com",
+      "isAdmin": false,
+      "active": true
+    },
+    {
+      "id": 26,
+      "name": "Catrinel",
+      "lastName": "Dobrescu",
+      "password": "123",
+      "email": "female@mai.com",
+      "isAdmin": false,
+      "active": true
+    },
+    {
+      "id": 27,
+      "name": "Helge",
+      "lastName": "Nielsen",
+      "password": "123",
+      "email": "male@mai.com",
+      "isAdmin": false,
+      "active": true
+    }
+  ]
+}
