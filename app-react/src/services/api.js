@@ -9,10 +9,19 @@ const api = axios.create({
 api.interceptors.response.use(
   response => response,
   error => {
-    if (error.response.status === 401) {
+    let status = 0;
+    let message = '';
+
+    if (error && error.response && error.response.status) {
+      status = error.response.status;
+      message = error.response.data.message;
+    }
+
+    if (status === 401) {
       store.dispatch(signOut());
     }
-    return Promise.reject(error);
+
+    return Promise.reject({ ...error, status, message });
   }
 );
 

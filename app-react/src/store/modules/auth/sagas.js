@@ -23,9 +23,8 @@ export function* signIn({ payload }) {
 
     history.push('/users');
   } catch (err) {
-    if (err.response.status === 400) {
-      const { message } = err.response.data;
-      toast.warn(message);
+    if (err.status === 400) {
+      toast.warn(err.message);
     } else {
       toast.error('Falha na autenticação, verifique seus dados');
     }
@@ -48,9 +47,8 @@ export function* signUp({ payload }) {
 
     history.push('/');
   } catch (err) {
-    if (err.response.status === 400) {
-      const { message } = err.response.data;
-      toast.warn(message);
+    if (err.status === 400) {
+      toast.warn(err.message);
     } else {
       toast.error('Falha no cadastro, verifique seus dados');
     }
