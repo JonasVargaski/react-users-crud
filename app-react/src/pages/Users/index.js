@@ -93,6 +93,11 @@ export default function Users() {
     setShowUserModal(true);
   }
 
+  function handleSearchUser(text) {
+    setUserSearch(text);
+    setPage(0);
+  }
+
   return (
     <Card>
       {showConfirmDialog && (
@@ -116,7 +121,7 @@ export default function Users() {
       <Header>
         <span>Usuários</span>
         <div>
-          <InputSearch handleChange={setUserSearch} />
+          <InputSearch handleChange={handleSearchUser} />
           {userProfile.isAdmin && (
             <Button type="button" onClick={handleRegisterUser}>
               Cadastrar
