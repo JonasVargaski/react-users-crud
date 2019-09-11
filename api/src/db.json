@@ -2,8 +2,8 @@
   "users": [
     {
       "id": 1,
-      "name": "Anderson",
-      "lastName": "Araujo Varejão",
+      "name": "Braxton",
+      "lastName": "Stuart",
       "password": "123445",
       "email": "usuario1@email.com.br",
       "isAdmin": false,
@@ -11,8 +11,8 @@
     },
     {
       "id": 3,
-      "name": "Diane",
-      "lastName": "Pacheco",
+      "name": "Edward",
+      "lastName": "Schwartz",
       "isAdmin": false,
       "email": "usuario3@email.com.br",
       "password": "123445",
@@ -20,8 +20,8 @@
     },
     {
       "id": 4,
-      "name": "Andreia",
-      "lastName": "Silveira Souza",
+      "name": "Baran",
+      "lastName": "Savage",
       "isAdmin": false,
       "email": "usuario4@email.com.br",
       "password": "123445",
@@ -29,8 +29,8 @@
     },
     {
       "id": 5,
-      "name": "Camila",
-      "lastName": "Lindoso Cortez",
+      "name": "Giulia",
+      "lastName": "Leonard Cortezi",
       "isAdmin": false,
       "email": "usuario5@email.com.br",
       "password": "123445",
@@ -38,8 +38,8 @@
     },
     {
       "id": 6,
-      "name": "Antonio",
-      "lastName": "Neto da Silva Fernandes",
+      "name": "Aislinn",
+      "lastName": "Flowers",
       "password": "123445",
       "email": "usuario6@email.com.br",
       "isAdmin": false,
@@ -47,8 +47,8 @@
     },
     {
       "id": 7,
-      "name": "Cleo",
-      "lastName": "Prado Douglas",
+      "name": "Guto",
+      "lastName": "Lowe",
       "isAdmin": false,
       "email": "usuario7@email.com.br",
       "password": "123445",
@@ -56,8 +56,8 @@
     },
     {
       "id": 8,
-      "name": "Maria",
-      "lastName": "Clara Araujo Martins",
+      "name": "Nadeem",
+      "lastName": "Mustafa",
       "isAdmin": false,
       "email": "usuario8@email.com.br",
       "password": "123445",
